@@ -9,9 +9,7 @@ template:
     $ref: "#/messages/template.description"
   header: "![](toolchain.svg?localize)"
   icon: razee.svg
-  required:
-    - build
-    - repo
+  required: "invalidrequired"
   $configuration:
     ENABLE_EXTENSIONS: true
     ENABLE_IF_ELSE: true
